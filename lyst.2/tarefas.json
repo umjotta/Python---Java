@@ -1,0 +1,17 @@
+[
+    {
+        "descricao": "Jogar bola",
+        "prazo": "2026-03-30",
+        "concluida": true
+    },
+    {
+        "descricao": "Olha o cachorro",
+        "prazo": "2027-04-12",
+        "concluida": true
+    },
+    {
+        "descricao": "Fugir",
+        "prazo": "2028-10-10",
+        "concluida": true
+    }
+]
