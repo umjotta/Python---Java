@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #0056b3;
+  color: white;
+}
+
+header {
+  padding: 20px;
+  font-size: 24px;
+  background-color: #004080;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.materias {
+  margin: 20px;
+  padding: 15px;
+  background-color: #003366;
+  border-radius: 10px;
+}
+
+.materia {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #002244;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #ffcc00;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Aluno</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Schol Coin</h1>
+      <p>Bem-vindo, Aluno!</p>
+    </header>
+
+    <section class="saldo">
+      <h2>Seu saldo</h2>
+      <p><span id="scoins">100</span> SCoins</p>
+    </section>
+
+    <section class="desafios">
+      <h2>Desafios ativos</h2>
+      <ul>
+        <li>Entregar trabalho antecipado (+20 SCoins)</li>
+        <li>Participação em aula (+10 SCoins)</li>
+        <li>Ajudar um colega (+15 SCoins)</li>
+      </ul>
+    </section>
+
+    <section class="resgate">
+      <h2>Resgate de recompensas</h2>
+      <ul>
+        <li>Caneta personalizada - 50 SCoins</li>
+        <li>Hora extra no laboratório - 100 SCoins</li>
+        <li>Desconto na mensalidade - 500 SCoins</li>
+      </ul>
+    </section>
+
+    <footer>
+      <button onclick="historico()">Ver Histórico</button>
+    </footer>
+
+    <script>
+      function historico() {
+        window.location.href = "historico.html";
+      }
+    </script>
+  </body>
+</html>
